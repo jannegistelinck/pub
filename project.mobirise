@@ -2,7 +2,7 @@
   "settings": {
     "currentPage": "index.html",
     "versionFirst": "3.8.3",
-    "uniqCompNum": 12,
+    "uniqCompNum": 13,
     "versionPublish": "3.12.1",
     "name": "My Site",
     "theme": {
@@ -23,7 +23,11 @@
         "isScrollToTopButton": false,
         "isRtl": false
       }
-    }
+    },
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-93365825-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our policy\r\n<http://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm>"
   },
   "pages": {
     "index.html": {
@@ -40,39 +44,64 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "header1",
-          "_anchor": "header1-2",
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#a38f84",
+              "text-align": "center",
+              "font-size": "18px"
+            },
+            ".mbr-section-title": {
+              "color": "#a38f84",
+              "text-align": "center"
+            }
+          },
+          "_anchor": "header2-c",
           "_params": {
+            "imageSize": 50,
             "parallax": true,
-            "bgImageRadio": true,
-            "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/img-2000x2666.jpg",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#fffdf8",
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
+            "overlay": true,
+            "overlayOpacity": 0.3,
             "overlayColor": "#000",
-            "contentAlign": "center",
+            "inverse": true,
             "showTitle": true,
             "showText": true,
-            "showButtons": false
+            "showButtons": false,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/the-familiar-1400x1783.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
           },
           "title": "Janne Gistelinck",
-          "text": "Textile Student",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "text-align": "right",
-              "color": "#f3e8c8"
-            },
-            ".mbr-section-lead": {
-              "text-align": "right"
-            }
-          }
+          "text": "Textile &nbsp;student",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_name": "footer1",
@@ -102,20 +131,50 @@
             "paddingBottom": "4",
             "images": [
               {
-                "tags": "",
+                "tags": "Tactile Escapes",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gip-3-2000x1333-83-2000x1333-4.jpg",
-                "image": "@PROJECT_PATH@/assets/images/gip-3-2000x1333-83.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/tactile-escapes-janne-gistelinck-3-2000x2692-800x1076.jpg",
+                "image": "@PROJECT_PATH@/assets/images/tactile-escapes-janne-gistelinck-3-2000x2692.jpg",
                 "caption": "Type caption here",
                 "active": true
+              },
+              {
+                "tags": "Tactile Escapes",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/tactile-escapes-janne-gistelinck-4-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/tactile-escapes-janne-gistelinck-4-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Tactile Escapes",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/tactile-escapes-janne-gistelinck-2-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/tactile-escapes-janne-gistelinck-2-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Tactile Escapes",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/tactile-escapes-janne-gistelinck-2000x1313-800x525.jpg",
+                "image": "@PROJECT_PATH@/assets/images/tactile-escapes-janne-gistelinck-2000x1313.jpg",
+                "caption": "Type caption here",
+                "active": false
               }
             ],
             "spacing": 1,
             "showText": false,
             "filter": true,
-            "bgColor": "#000000",
+            "bgColor": "#ffffff",
             "filterBgColor": false,
             "fullWidth": false,
             "showBullets": true
@@ -125,123 +184,12 @@
           "allItem": "All"
         },
         {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_styles": {
-            "P": {
-              "color": "#efefef",
-              "text-align": "center"
-            }
-          },
-          "_anchor": "content1-6",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#000000"
-          },
-          "text": "<p>copyright afbeeldingen</p>"
-        },
-        {
-          "_inherit": "gallery1",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery4",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "images": [
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/room-laptop-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/table-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/table.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
-                "caption": "Type caption here"
-              }
-            ],
-            "spacing": 1,
-            "showText": false,
-            "filter": true,
-            "bgColor": "fff",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
-          },
-          "_anchor": "gallery4-7",
-          "articleLayout": false
-        },
-        {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            "H3": {
+              "color": "#a38f84"
             }
           },
           "_tags": [
@@ -284,36 +232,36 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#f3e8c8"
+              "color": "#a38f84"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#f3e8c8"
+              "background-color": "#a38f84"
             },
             ".link, .dropdown-item": {
-              "color": "#f3e8c8",
+              "color": "#a38f84",
               "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
               "font-family": "'Source Sans Pro', sans-serif"
             },
             ".link": {
-              "font-size": "1.2rem"
+              "font-size": "1.6rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.300rem"
+              "font-size": "1.733rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
+              "background": "#e6e6e6"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#000000!important"
+              "background": "#f7f7f7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#000000"
+              "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#f3e8c8",
+              "color": "#a38f84",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -329,14 +277,14 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-0",
           "_params": {
-            "bgColor": "#000000",
-            "fontSize": "1.2",
+            "bgColor": "#ffffff",
+            "fontSize": "1.6",
             "fontName": {
               "name": "Source Sans Pro",
               "url": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
               "css": "'Source Sans Pro', sans-serif"
             },
-            "fontColor": "#f3e8c8",
+            "fontColor": "#a38f84",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": true,
@@ -374,7 +322,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -382,9 +330,13 @@
           },
           "logo": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/logo.png",
               "width": 128,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
