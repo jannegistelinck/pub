@@ -505,3 +505,96 @@ h6,
 #contacts1-6 P {
   color: #000000;
 }
+
+#header2-f .mbr-section-text {
+  color: #a38f84;
+  text-align: center;
+  font-size: 18px;
+}
+#header2-f .mbr-section-title {
+  color: #a38f84;
+  text-align: center;
+}
+#header3-i .mbr-section-title,
+#header3-i .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-i H3 {
+  color: #a38f84;
+  text-align: right;
+}
+#content2-j DIV {
+  text-align: center;
+}
+#content2-j P {
+  text-align: left;
+}
+#ext_menu-k .hide-buttons .nav-btn {
+  display: none !important;
+}
+#ext_menu-k .navbar-caption {
+  color: #ffffff;
+}
+#ext_menu-k .navbar-toggler {
+  color: #a38f84;
+}
+#ext_menu-k .close-icon::before,
+#ext_menu-k .close-icon::after {
+  background-color: #a38f84;
+}
+#ext_menu-k .link,
+#ext_menu-k .dropdown-item {
+  color: #a38f84;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#ext_menu-k .link {
+  font-size: 1.1rem;
+}
+#ext_menu-k .dropdown-item,
+#ext_menu-k .nav-dropdown-sm .link {
+  font-size: 1.191rem;
+}
+#ext_menu-k .link:hover,
+#ext_menu-k .dropdown-item:hover,
+#ext_menu-k .link:focus,
+#ext_menu-k .dropdown-item:focus {
+  color: #ffffff;
+}
+#ext_menu-k .link[aria-expanded="true"],
+#ext_menu-k .dropdown-menu {
+  background: #e6e6e6;
+}
+#ext_menu-k .nav-dropdown-sm .link:focus,
+#ext_menu-k .nav-dropdown-sm .link:hover,
+#ext_menu-k .nav-dropdown-sm .dropdown-item:focus,
+#ext_menu-k .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#ext_menu-k .navbar,
+#ext_menu-k .nav-dropdown-sm,
+#ext_menu-k .nav-dropdown-sm .link[aria-expanded="true"],
+#ext_menu-k .nav-dropdown-sm .dropdown-menu {
+  background: #ffffff;
+}
+#ext_menu-k .bg-color.transparent .link {
+  color: #a38f84;
+  transition: none;
+}
+#ext_menu-k .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#ext_menu-k .bg-color.transparent.opened .link:hover,
+#ext_menu-k .bg-color.transparent.opened .link:focus {
+  color: #ffffff;
+}
+#ext_menu-k .link[aria-expanded="true"],
+#ext_menu-k .dropdown-item[aria-expanded="true"] {
+  color: #ffffff!important;
+}
+#contacts1-l STRONG {
+  color: #a38f84;
+  text-align: center;
+}
+#contacts1-l P {
+  color: #000000;
+}
