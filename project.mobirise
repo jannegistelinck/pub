@@ -127,7 +127,7 @@
           ],
           "_name": "gallery4",
           "_params": {
-            "paddingTop": "3",
+            "paddingTop": "1",
             "paddingBottom": "4",
             "images": [
               {
@@ -137,8 +137,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/tactile-escapes-janne-gistelinck-3-2000x2692-800x1076.jpg",
                 "image": "@PROJECT_PATH@/assets/images/tactile-escapes-janne-gistelinck-3-2000x2692.jpg",
-                "caption": "Type caption here",
-                "active": true
+                "caption": "Typ",
+                "active": false
               },
               {
                 "tags": "Tactile Escapes",
@@ -169,19 +169,99 @@
                 "image": "@PROJECT_PATH@/assets/images/tactile-escapes-janne-gistelinck-2000x1313.jpg",
                 "caption": "Type caption here",
                 "active": false
+              },
+              {
+                "tags": "Search For People ",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/search-2000x2639-800x1055.jpg",
+                "image": "@PROJECT_PATH@/assets/images/search-2000x2639.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Search For People",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/share-2000x1841-800x736.jpg",
+                "image": "@PROJECT_PATH@/assets/images/share-2000x1841.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Far From Close",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/far-from-close-2000x2832-800x1132.jpg",
+                "image": "@PROJECT_PATH@/assets/images/far-from-close-2000x2832.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Far From Close",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/far-from-close-2000x3000-800x1200.jpg",
+                "image": "@PROJECT_PATH@/assets/images/far-from-close-2000x3000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Far From Close",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/far-from-close-1-2000x3000-800x1200.jpg",
+                "image": "@PROJECT_PATH@/assets/images/far-from-close-1-2000x3000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "The Familiar",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/the-familiar-2000x2547-800x1018.jpg",
+                "image": "@PROJECT_PATH@/assets/images/the-familiar-2000x2547.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "The Familiar",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/the-familiar-2000x1809-800x723.jpg",
+                "image": "@PROJECT_PATH@/assets/images/the-familiar-2000x1809.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "The Familiar",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/the-familiar-2000x1967-800x786.jpg",
+                "image": "@PROJECT_PATH@/assets/images/the-familiar-2000x1967.jpg",
+                "caption": "Type caption here",
+                "active": true
               }
             ],
             "spacing": 1,
-            "showText": false,
+            "showText": true,
             "filter": true,
             "bgColor": "#ffffff",
             "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
+            "fullWidth": true,
+            "showBullets": false
           },
           "_anchor": "gallery4-4",
           "articleLayout": false,
-          "allItem": "All"
+          "allItem": "All&nbsp;"
         },
         {
           "_styles": {
@@ -243,10 +323,10 @@
               "font-family": "'Source Sans Pro', sans-serif"
             },
             ".link": {
-              "font-size": "1.6rem"
+              "font-size": "1.1rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.733rem"
+              "font-size": "1.191rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -278,7 +358,7 @@
           "_anchor": "ext_menu-0",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1.6",
+            "fontSize": "1.1",
             "fontName": {
               "name": "Source Sans Pro",
               "url": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
@@ -308,7 +388,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">About</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Biography</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Portfolio</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Textile work<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">About</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Biography</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Portfolio</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Textile work<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_tags": [
@@ -330,7 +410,7 @@
           },
           "logo": {
             "image": {
-              "src": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/wit-vlak-128x96.png",
               "width": 128,
               "active": true,
               "link": "",
