@@ -27,7 +27,7 @@
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-93365825-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
-    "cookiesAlert": "We use cookies to give you the best experience. Read our policy\r\n<http://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm>"
+    "cookiesAlert": "We use cookies to give you the best experience. "
   },
   "pages": {
     "index.html": {
@@ -422,10 +422,10 @@
               "font-family": "'Source Sans Pro', sans-serif"
             },
             ".link": {
-              "font-size": "1.1rem"
+              "font-size": "1.05rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.191rem"
+              "font-size": "1.137rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -457,7 +457,7 @@
           "_anchor": "ext_menu-0",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1.1",
+            "fontSize": "1.05",
             "fontName": {
               "name": "Source Sans Pro",
               "url": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
@@ -466,7 +466,7 @@
             "fontColor": "#a38f84",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
-            "sticky": true,
+            "sticky": false,
             "logo": false,
             "showBrand": false,
             "collapsed": true,
@@ -964,7 +964,7 @@
           "_anchor": "ext_menu-k",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1.1",
+            "fontSize": "1.05",
             "fontName": {
               "name": "Source Sans Pro",
               "url": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
@@ -973,7 +973,7 @@
             "fontColor": "#a38f84",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
-            "sticky": true,
+            "sticky": false,
             "logo": false,
             "showBrand": false,
             "collapsed": true,
