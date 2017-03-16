@@ -428,6 +428,13 @@ h6,
 }
 #header3-4 H3 {
   color: #a38f84;
+  text-align: right;
+}
+#content2-3 DIV {
+  text-align: center;
+}
+#content2-3 P {
+  text-align: left;
 }
 #ext_menu-0 .hide-buttons .nav-btn {
   display: none !important;
@@ -490,4 +497,11 @@ h6,
 #ext_menu-0 .link[aria-expanded="true"],
 #ext_menu-0 .dropdown-item[aria-expanded="true"] {
   color: #ffffff!important;
+}
+#contacts1-6 STRONG {
+  color: #a38f84;
+  text-align: center;
+}
+#contacts1-6 P {
+  color: #000000;
 }

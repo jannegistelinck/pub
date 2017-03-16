@@ -2,7 +2,7 @@
   "settings": {
     "currentPage": "index.html",
     "versionFirst": "3.8.3",
-    "uniqCompNum": 13,
+    "uniqCompNum": 14,
     "versionPublish": "3.12.1",
     "name": "My Site",
     "theme": {
@@ -81,7 +81,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/the-familiar-1400x1783.jpg",
+              "src": "@PROJECT_PATH@/assets/images/the-familiar-1400x1266.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -137,7 +137,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/tactile-escapes-janne-gistelinck-3-2000x2692-800x1076.jpg",
                 "image": "@PROJECT_PATH@/assets/images/tactile-escapes-janne-gistelinck-3-2000x2692.jpg",
-                "caption": "Typ",
+                "caption": "&nbsp;Tactile Escapes",
                 "active": false
               },
               {
@@ -147,7 +147,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/tactile-escapes-janne-gistelinck-4-2000x1333-800x533.jpg",
                 "image": "@PROJECT_PATH@/assets/images/tactile-escapes-janne-gistelinck-4-2000x1333.jpg",
-                "caption": "Type caption here",
+                "caption": "Tactile Excapes",
                 "active": false
               },
               {
@@ -157,7 +157,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/tactile-escapes-janne-gistelinck-2-2000x1333-800x533.jpg",
                 "image": "@PROJECT_PATH@/assets/images/tactile-escapes-janne-gistelinck-2-2000x1333.jpg",
-                "caption": "Type caption here",
+                "caption": "Tactile Escapes",
                 "active": false
               },
               {
@@ -167,7 +167,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/tactile-escapes-janne-gistelinck-2000x1313-800x525.jpg",
                 "image": "@PROJECT_PATH@/assets/images/tactile-escapes-janne-gistelinck-2000x1313.jpg",
-                "caption": "Type caption here",
+                "caption": "Tactile Escapes",
                 "active": false
               },
               {
@@ -195,16 +195,6 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/far-from-close-2000x2832-800x1132.jpg",
-                "image": "@PROJECT_PATH@/assets/images/far-from-close-2000x2832.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Far From Close",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/far-from-close-2000x3000-800x1200.jpg",
                 "image": "@PROJECT_PATH@/assets/images/far-from-close-2000x3000.jpg",
                 "caption": "Type caption here",
@@ -217,6 +207,16 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/far-from-close-1-2000x3000-800x1200.jpg",
                 "image": "@PROJECT_PATH@/assets/images/far-from-close-1-2000x3000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Far From Close",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/far-from-close-2000x2832-800x1132.jpg",
+                "image": "@PROJECT_PATH@/assets/images/far-from-close-2000x2832.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -248,11 +248,101 @@
                 "thumb": "@PROJECT_PATH@/assets/images/the-familiar-2000x1967-800x786.jpg",
                 "image": "@PROJECT_PATH@/assets/images/the-familiar-2000x1967.jpg",
                 "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Study On Light",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fluo-borduursel-2000x3000-800x1200.png",
+                "image": "@PROJECT_PATH@/assets/images/fluo-borduursel-2000x3000.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Study On Light",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/light-embroidery-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/light-embroidery-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Study On Light",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fluo-borduursel-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/fluo-borduursel-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Study On Light",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fluo-borduursel-2000x962-800x384.jpg",
+                "image": "@PROJECT_PATH@/assets/images/fluo-borduursel-2000x962.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Study On Light",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/light-embroidery-2000x997-800x398.jpg",
+                "image": "@PROJECT_PATH@/assets/images/light-embroidery-2000x997.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Study On Light",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fluo-borduursel-1-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/fluo-borduursel-1-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Study On Light",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/weefsel-licht-lang-2000x2803-800x1121.jpg",
+                "image": "@PROJECT_PATH@/assets/images/weefsel-licht-lang-2000x2803.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Study On Light",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mg-2000x1898-800x759.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-mg-2000x1898.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Study On Light",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mg-2000x1723-800x689.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-mg-2000x1723.jpg",
+                "caption": "Type caption here",
                 "active": true
               }
             ],
-            "spacing": 1,
-            "showText": true,
+            "spacing": "2",
+            "showText": false,
             "filter": true,
             "bgColor": "#ffffff",
             "filterBgColor": false,
@@ -269,7 +359,8 @@
               "text-align": "center"
             },
             "H3": {
-              "color": "#a38f84"
+              "color": "#a38f84",
+              "text-align": "right"
             }
           },
           "_tags": [
@@ -283,7 +374,7 @@
             "bgColor": "#fff",
             "showMeta": true
           },
-          "title": "Biography",
+          "title": "Janne Gistelinck",
           "meta": ""
         },
         {
@@ -297,7 +388,15 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<span style=\"font-size: 17.600000381469727px; line-height: 20.799999237060547px;\">In progress</span>"
+          "text": "<p><br></p><p>Geboren in Gent, 13 Juni 1996</p><p><br></p><p>2de bachelor Textiel ontwerp in LUCA School Of Arts</p><p><br></p><p><br></p><p>&nbsp;</p><p><br></p>",
+          "_styles": {
+            "DIV": {
+              "text-align": "center"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          }
         },
         {
           "_inherit": "menu",
@@ -388,7 +487,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">About</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Biography</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Portfolio</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Textile work<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">About</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Biography</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#gallery4-4\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Portfolio</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#gallery4-4\">Textile work<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-6\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_tags": [
@@ -397,7 +496,7 @@
           "_name": "contacts1",
           "_anchor": "contacts1-6",
           "_params": {
-            "paddingTop": 3,
+            "paddingTop": "1",
             "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
@@ -424,9 +523,18 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
-          "text2": "<strong>Contacts</strong><br>\nEmail: jannegistelinck@hotmail.com<br>\nPhone: <br><br>",
-          "text3": "<strong>Links</strong><br>\n<a class=\"text-primary\" href=\"https://mobirise.com/\">Website builder</a><br>\n<a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a><br>\n<a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a>"
+          "text1": "<strong>Address</strong><br>Salviastraat&nbsp;<br>9040 Gent, België&nbsp;",
+          "text2": "<strong>Contacts</strong><br>\nEmail: jannegistelinck@hotmail.com<br><br><br>",
+          "text3": "<br>\n<a class=\"text-primary\" href=\"https://mobirise.com/\">Website builder</a><br>\n<a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a><br>\n<a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a>",
+          "_styles": {
+            "STRONG": {
+              "color": "#a38f84",
+              "text-align": "center"
+            },
+            "P": {
+              "color": "#000000"
+            }
+          }
         }
       ]
     }
