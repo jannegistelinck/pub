@@ -380,23 +380,6 @@
       },
       "components": [
         {
-          "_name": "footer1",
-          "_anchor": "footer1-1g",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2016 Mobirise."
-        },
-        {
           "_inherit": "menu",
           "_tags": [
             "Theme"
@@ -822,7 +805,7 @@
                 "showTitle": true,
                 "title": "Share&nbsp;",
                 "showText": true,
-                "text": "<span style=\"font-size: 20px; line-height: 1.5;\">&nbsp; &nbsp;</span><br>",
+                "text": "",
                 "showButtons": true,
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"Share\" data-toolbar=\"-mbrBtnMove\">zie meer&nbsp;</a>"
               },
