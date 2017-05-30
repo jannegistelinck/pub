@@ -199,7 +199,7 @@
     },
     "Far From Close ": {
       "settings": {
-        "title": "Web Site Maker Title",
+        "title": "Janne Gistelinck Far From Close ",
         "meta_descr": "Web Site Maker Description",
         "order": 6
       },
@@ -374,7 +374,7 @@
     },
     "Studie van licht": {
       "settings": {
-        "title": "Web Site Maker Title",
+        "title": "Janne Gistelinck studie van licht",
         "meta_descr": "Web Site Maker Description",
         "order": 5
       },
@@ -543,7 +543,7 @@
     },
     "The Familiar": {
       "settings": {
-        "title": "Web Site Maker Title",
+        "title": "Janne Gistelinck The Famiiar ",
         "meta_descr": "Web Site Maker Description",
         "order": 7
       },
@@ -696,7 +696,7 @@
     },
     "portfolio": {
       "settings": {
-        "title": "",
+        "title": "Janne Gistelinck Portfolio",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -760,7 +760,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "showTitle": true,
-                "title": "<span style=\"font-weight: normal;\">Studie van licht</span>",
+                "title": "Studie van licht",
                 "showText": true,
                 "text": "",
                 "showButtons": true,
@@ -926,7 +926,7 @@
     },
     "Tactile Escapes": {
       "settings": {
-        "title": "Web Page Builder Title",
+        "title": "Janne Gistelinck Tactile Escapes ",
         "meta_descr": "Web Page Builder Description",
         "order": 8
       },
@@ -1089,7 +1089,7 @@
     },
     "Share": {
       "settings": {
-        "title": "Site Builder Title",
+        "title": "Janne Gistelinck Share",
         "meta_descr": "Site Builder Description",
         "order": 9
       },
