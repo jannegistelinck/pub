@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "portfolio",
     "versionFirst": "3.8.3",
     "uniqCompNum": 84,
     "versionPublish": "3.12.1",
@@ -603,7 +603,7 @@
                 "showText": true,
                 "text": "",
                 "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"Far From Close \" data-toolbar=\"-mbrBtnMove\">Zie meer</a> "
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"contact\" data-toolbar=\"-mbrBtnMove\">Zie meer</a> "
               },
               {
                 "active": true,
