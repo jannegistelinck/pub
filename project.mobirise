@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "Far From Close ",
+    "currentPage": "index.html",
     "versionFirst": "3.8.3",
     "uniqCompNum": 81,
     "versionPublish": "3.12.1",
@@ -206,6 +206,11 @@
       "components": [
         {
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#a38f84"
+            }
+          },
           "_anchor": "footer1-1k",
           "_params": {
             "paddingTop": 2,
@@ -219,12 +224,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Foto's Lowie Clapéron",
-          "_styles": {
-            "P": {
-              "color": "#a38f84"
-            }
-          }
+          "text": "Foto's Lowie Clapéron"
         },
         {
           "_inherit": "menu",
