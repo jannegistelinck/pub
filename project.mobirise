@@ -194,114 +194,6 @@
           "title": "Janne Gistelinck",
           "text": "Textiel student",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "color": "#a38f84",
-              "text-align": "right"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-4",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": true
-          },
-          "title": "Janne Gistelinck",
-          "meta": ""
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content2",
-          "_styles": {
-            "DIV": {
-              "text-align": "center"
-            },
-            "P": {
-              "text-align": "left"
-            }
-          },
-          "_anchor": "content2-3",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p><br></p><p>Geboren in Gent, 13 Juni 1996</p><p><br></p><p><b>Studies</b></p><p>2de bachelor Textiel ontwerp in LUCA School Of Arts</p><p><br></p><p><br></p><p>&nbsp;</p><p><br></p>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form1",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            },
-            ".mbr-section-title": {
-              "color": "#a38f84"
-            },
-            "SMALL": {
-              "color": "#000000"
-            }
-          },
-          "_anchor": "form1-m",
-          "_params": {
-            "labelsColor": "#232323",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
-          },
-          "title": "CONTACT",
-          "subtitle": "Feel free to write me questions",
-          "form": {
-            "action": "jannegistelinck@hotmail.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "title": "Name",
-                "visible": true,
-                "customTitle": "Name*"
-              },
-              "email": {
-                "title": "Email",
-                "visible": true,
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "title": "Phone",
-                "visible": true,
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
         }
       ]
     },
@@ -309,7 +201,7 @@
       "settings": {
         "title": "Web Site Maker Title",
         "meta_descr": "Web Site Maker Description",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -484,7 +376,7 @@
       "settings": {
         "title": "Web Site Maker Title",
         "meta_descr": "Web Site Maker Description",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -654,7 +546,7 @@
       "settings": {
         "title": "Web Site Maker Title",
         "meta_descr": "Web Site Maker Description",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -810,7 +702,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -1037,7 +929,7 @@
       "settings": {
         "title": "Web Page Builder Title",
         "meta_descr": "Web Page Builder Description",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -1200,7 +1092,7 @@
       "settings": {
         "title": "Site Builder Title",
         "meta_descr": "Site Builder Description",
-        "order": 8
+        "order": 9
       },
       "components": [
         {
@@ -1346,7 +1238,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -1494,7 +1386,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
